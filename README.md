@@ -6,3 +6,4 @@
 |  2   | [优雅地关闭服务](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/graceful_shutdwon/README.md) |
 |  3   | [选项模式初始化参数](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/optional/README.md) |
 |  4   | [ants demo](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/ants/README.md) |
+|  5   | [etcd分布式锁](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/etcd_distributed_lock/README.md) |
