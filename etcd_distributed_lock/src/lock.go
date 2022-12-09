@@ -1,22 +1,18 @@
 package lock
 
 import (
-	"flag"
 	"log"
-	"strings"
 	"time"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/concurrency"
 )
 
-var addr = flag.String("addr", "http://127.0.0.1:2379", "etcd address")
-
 func initEtcdClient() *clientv3.Client {
 	var client *clientv3.Client
 	var err error
 
-	endpoints := strings.Split(*addr, ",")
+	endpoints := []string{"http://127.0.0.1:2379"}
 
 	// 创建一个 etcd 的客户端
 	client, err = clientv3.New(clientv3.Config{Endpoints: endpoints, DialTimeout: 5 * time.Second})
