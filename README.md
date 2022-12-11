@@ -8,3 +8,4 @@
 |  4   | [ants demo](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/03.ants/README.md) |
 |  5   | [etcd分布式锁](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/04.etcd_distributed_lock/README.md) |
 |  6   | [atomic](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/05.atomic/README.md) |
+|  7   | [atomic](https://github.com/GiHccTpD/golang-minimal-implement/blob/main/06.channel_lock/README.md) |
